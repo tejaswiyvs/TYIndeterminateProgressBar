@@ -11,7 +11,10 @@ To show the progressbar:
 
 You can also tweak it a little by passing in colors that you want instead of a bland white / blue combo like this:
 
-`[TYIndeterminateProgressBar showInView:self.view backgroundColor:[UIColor whiteColor] indicatorColor:[UIColor greenColor] borderColor:[UIColor darkGrayColor]];`****
+	[TYIndeterminateProgressBar	showInView:self.view 
+								backgroundColor:[UIColor whiteColor] 
+								indicatorColor:[UIColor greenColor] 
+								borderColor:[UIColor darkGrayColor]];
 
 And to hide the progressBar:
 
