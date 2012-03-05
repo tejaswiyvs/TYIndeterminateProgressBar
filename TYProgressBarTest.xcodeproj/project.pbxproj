@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70D0F4D1504F73400E094A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70D0F4C1504F73400E094A8 /* UIKit.framework */; };
+		B70D0F4F1504F73400E094A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70D0F4E1504F73400E094A8 /* Foundation.framework */; };
+		B70D0F511504F73400E094A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70D0F501504F73400E094A8 /* CoreGraphics.framework */; };
+		B70D0F571504F73400E094A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B70D0F551504F73400E094A8 /* InfoPlist.strings */; };
+		B70D0F591504F73400E094A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F581504F73400E094A8 /* main.m */; };
+		B70D0F5D1504F73500E094A8 /* TYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F5C1504F73500E094A8 /* TYAppDelegate.m */; };
+		B70D0F601504F73500E094A8 /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F5F1504F73500E094A8 /* TYViewController.m */; };
+		B70D0F631504F73500E094A8 /* TYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D0F611504F73500E094A8 /* TYViewController.xib */; };
+		B70D0F6F1504F87200E094A8 /* TYIndeterminateProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F6E1504F87200E094A8 /* TYIndeterminateProgressBar.m */; };
+		B70D0F721504F8A800E094A8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F711504F8A800E094A8 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B70D0F481504F73400E094A8 /* TYProgressBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYProgressBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70D0F4C1504F73400E094A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B70D0F4E1504F73400E094A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B70D0F501504F73400E094A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B70D0F541504F73400E094A8 /* TYProgressBarTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TYProgressBarTest-Info.plist"; sourceTree = "<group>"; };
+		B70D0F561504F73400E094A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B70D0F581504F73400E094A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B70D0F5A1504F73400E094A8 /* TYProgressBarTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYProgressBarTest-Prefix.pch"; sourceTree = "<group>"; };
+		B70D0F5B1504F73400E094A8 /* TYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYAppDelegate.h; sourceTree = "<group>"; };
+		B70D0F5C1504F73500E094A8 /* TYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAppDelegate.m; sourceTree = "<group>"; };
+		B70D0F5E1504F73500E094A8 /* TYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
+		B70D0F5F1504F73500E094A8 /* TYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
+		B70D0F621504F73500E094A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TYViewController.xib; sourceTree = "<group>"; };
+		B70D0F6D1504F87200E094A8 /* TYIndeterminateProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYIndeterminateProgressBar.h; path = TYIndeterminateProgressBar/TYIndeterminateProgressBar.h; sourceTree = SOURCE_ROOT; };
+		B70D0F6E1504F87200E094A8 /* TYIndeterminateProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYIndeterminateProgressBar.m; path = TYIndeterminateProgressBar/TYIndeterminateProgressBar.m; sourceTree = SOURCE_ROOT; };
+		B70D0F701504F8A800E094A8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../../MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		B70D0F711504F8A800E094A8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../../MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B70D0F451504F73400E094A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70D0F4D1504F73400E094A8 /* UIKit.framework in Frameworks */,
+				B70D0F4F1504F73400E094A8 /* Foundation.framework in Frameworks */,
+				B70D0F511504F73400E094A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B70D0F3D1504F73400E094A8 = {
+			isa = PBXGroup;
+			children = (
+				B70D0F521504F73400E094A8 /* TYProgressBarTest */,
+				B70D0F4B1504F73400E094A8 /* Frameworks */,
+				B70D0F491504F73400E094A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B70D0F491504F73400E094A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70D0F481504F73400E094A8 /* TYProgressBarTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70D0F4B1504F73400E094A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B70D0F4C1504F73400E094A8 /* UIKit.framework */,
+				B70D0F4E1504F73400E094A8 /* Foundation.framework */,
+				B70D0F501504F73400E094A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B70D0F521504F73400E094A8 /* TYProgressBarTest */ = {
+			isa = PBXGroup;
+			children = (
+				B70D0F691504F74900E094A8 /* Utils */,
+				B70D0F5B1504F73400E094A8 /* TYAppDelegate.h */,
+				B70D0F5C1504F73500E094A8 /* TYAppDelegate.m */,
+				B70D0F5E1504F73500E094A8 /* TYViewController.h */,
+				B70D0F5F1504F73500E094A8 /* TYViewController.m */,
+				B70D0F611504F73500E094A8 /* TYViewController.xib */,
+				B70D0F531504F73400E094A8 /* Supporting Files */,
+			);
+			path = TYProgressBarTest;
+			sourceTree = "<group>";
+		};
+		B70D0F531504F73400E094A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70D0F541504F73400E094A8 /* TYProgressBarTest-Info.plist */,
+				B70D0F551504F73400E094A8 /* InfoPlist.strings */,
+				B70D0F581504F73400E094A8 /* main.m */,
+				B70D0F5A1504F73400E094A8 /* TYProgressBarTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B70D0F691504F74900E094A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B70D0F6D1504F87200E094A8 /* TYIndeterminateProgressBar.h */,
+				B70D0F6E1504F87200E094A8 /* TYIndeterminateProgressBar.m */,
+				B70D0F701504F8A800E094A8 /* MBProgressHUD.h */,
+				B70D0F711504F8A800E094A8 /* MBProgressHUD.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B70D0F471504F73400E094A8 /* TYProgressBarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70D0F661504F73500E094A8 /* Build configuration list for PBXNativeTarget "TYProgressBarTest" */;
+			buildPhases = (
+				B70D0F441504F73400E094A8 /* Sources */,
+				B70D0F451504F73400E094A8 /* Frameworks */,
+				B70D0F461504F73400E094A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYProgressBarTest;
+			productName = TYProgressBarTest;
+			productReference = B70D0F481504F73400E094A8 /* TYProgressBarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B70D0F3F1504F73400E094A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B70D0F421504F73400E094A8 /* Build configuration list for PBXProject "TYProgressBarTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B70D0F3D1504F73400E094A8;
+			productRefGroup = B70D0F491504F73400E094A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B70D0F471504F73400E094A8 /* TYProgressBarTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B70D0F461504F73400E094A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70D0F571504F73400E094A8 /* InfoPlist.strings in Resources */,
+				B70D0F631504F73500E094A8 /* TYViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B70D0F441504F73400E094A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70D0F591504F73400E094A8 /* main.m in Sources */,
+				B70D0F5D1504F73500E094A8 /* TYAppDelegate.m in Sources */,
+				B70D0F601504F73500E094A8 /* TYViewController.m in Sources */,
+				B70D0F6F1504F87200E094A8 /* TYIndeterminateProgressBar.m in Sources */,
+				B70D0F721504F8A800E094A8 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B70D0F551504F73400E094A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70D0F561504F73400E094A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B70D0F611504F73500E094A8 /* TYViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70D0F621504F73500E094A8 /* en */,
+			);
+			name = TYViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B70D0F641504F73500E094A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B70D0F651504F73500E094A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B70D0F671504F73500E094A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TYProgressBarTest/TYProgressBarTest-Prefix.pch";
+				INFOPLIST_FILE = "TYProgressBarTest/TYProgressBarTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B70D0F681504F73500E094A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TYProgressBarTest/TYProgressBarTest-Prefix.pch";
+				INFOPLIST_FILE = "TYProgressBarTest/TYProgressBarTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B70D0F421504F73400E094A8 /* Build configuration list for PBXProject "TYProgressBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70D0F641504F73500E094A8 /* Debug */,
+				B70D0F651504F73500E094A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70D0F661504F73500E094A8 /* Build configuration list for PBXNativeTarget "TYProgressBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70D0F671504F73500E094A8 /* Debug */,
+				B70D0F681504F73500E094A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B70D0F3F1504F73400E094A8 /* Project object */;
+}
