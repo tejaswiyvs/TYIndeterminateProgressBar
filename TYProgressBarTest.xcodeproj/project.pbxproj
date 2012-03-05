@@ -16,7 +16,6 @@
 		B70D0F601504F73500E094A8 /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F5F1504F73500E094A8 /* TYViewController.m */; };
 		B70D0F631504F73500E094A8 /* TYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D0F611504F73500E094A8 /* TYViewController.xib */; };
 		B70D0F6F1504F87200E094A8 /* TYIndeterminateProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F6E1504F87200E094A8 /* TYIndeterminateProgressBar.m */; };
-		B70D0F721504F8A800E094A8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D0F711504F8A800E094A8 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +34,6 @@
 		B70D0F621504F73500E094A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TYViewController.xib; sourceTree = "<group>"; };
 		B70D0F6D1504F87200E094A8 /* TYIndeterminateProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYIndeterminateProgressBar.h; path = TYIndeterminateProgressBar/TYIndeterminateProgressBar.h; sourceTree = SOURCE_ROOT; };
 		B70D0F6E1504F87200E094A8 /* TYIndeterminateProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYIndeterminateProgressBar.m; path = TYIndeterminateProgressBar/TYIndeterminateProgressBar.m; sourceTree = SOURCE_ROOT; };
-		B70D0F701504F8A800E094A8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../../MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
-		B70D0F711504F8A800E094A8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../../MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +107,6 @@
 			children = (
 				B70D0F6D1504F87200E094A8 /* TYIndeterminateProgressBar.h */,
 				B70D0F6E1504F87200E094A8 /* TYIndeterminateProgressBar.m */,
-				B70D0F701504F8A800E094A8 /* MBProgressHUD.h */,
-				B70D0F711504F8A800E094A8 /* MBProgressHUD.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -182,7 +177,6 @@
 				B70D0F5D1504F73500E094A8 /* TYAppDelegate.m in Sources */,
 				B70D0F601504F73500E094A8 /* TYViewController.m in Sources */,
 				B70D0F6F1504F87200E094A8 /* TYIndeterminateProgressBar.m in Sources */,
-				B70D0F721504F8A800E094A8 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
