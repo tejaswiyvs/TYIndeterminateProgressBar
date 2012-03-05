@@ -1,0 +1,22 @@
+TYIndeterminateProgressBar
+==========================
+
+This is a simple library I made because I loved what the folks over at Milk have been doing with the indicator on Oink. What it basically does is animate a view to attach to the top of a UIView that you pass in and creates an oscillating effect indicating background processing. This can be a non intrusive way to let your users know that the UI is available, but you're loading some information in the background.
+
+The syntax is really easy to use, but I have a sample app attached just in case. 
+
+To show the progressbar:
+
+`[TYProgressBar showInView:self.view] // Pass in the correct view here.`
+
+You can also tweak it a little by passing in colors that you want instead of a bland white / blue combo like this:
+
+`[TYIndeterminateProgressBar showInView:self.view backgroundColor:[UIColor whiteColor] indicatorColor:[UIColor greenColor] borderColor:[UIColor darkGrayColor]];`****
+
+And to hide the progressBar:
+
+`[TYProgressBar hideFromView:self.view]`
+
+**Here's a screenshot:**
+
+![screenshot](http://img827.imageshack.us/img827/7020/screenshot20120305at847.png)
