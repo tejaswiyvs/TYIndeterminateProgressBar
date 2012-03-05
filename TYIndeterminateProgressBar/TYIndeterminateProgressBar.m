@@ -3,7 +3,8 @@
 //  IQ
 //
 //  Created by Tejaswi Y on 2/29/12.
-//  Use it however you want. If you can link back to my repo on github, that'd be cool.
+//  Use it however you want. If you can link back to my repo on github (https://tejaswiyvs@github.com/tejaswiyvs/TYIndeterminateProgressBar.git),
+//  that'd be awesome.
 
 #import "TYIndeterminateProgressBar.h"
 #import <QuartzCore/QuartzCore.h>
