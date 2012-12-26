@@ -27,7 +27,7 @@ static int kSpinnerTag = 10;
 @synthesize borderColor = _borderColor;
 
 + (void) showInView:(UIView *) view {
-    NSLog(@"view rect = %@", NSStringFromCGRect(view.frame));
+    DebugLog(@"view rect = %@", NSStringFromCGRect(view.frame));
     UIColor *bgColor = [UIColor whiteColor];
     UIColor *indicatorColor = [UIColor blueColor];
     UIColor *borderColor = [UIColor darkGrayColor];
@@ -42,17 +42,15 @@ static int kSpinnerTag = 10;
      indicatorColor:(UIColor *) indicatorColor 
         borderColor:(UIColor *) borderColor {
     TYIndeterminateProgressBar *progressBar = [[TYIndeterminateProgressBar alloc] init];
-#if !__has_feature(objc_arc)
-    [progressBar autorelease];
-#endif
     progressBar.bgColor = bgColor;
     progressBar.indicatorColor = indicatorColor;
     progressBar.borderColor = borderColor;
     // Centers it in the current view's frame.
     [view addSubview:progressBar];
-    [[NSNotificationCenter defaultCenter] addObserver:progressBar 
+    [progressBar setNeedsLayout];
+    [[NSNotificationCenter defaultCenter] addObserver:progressBar
                                              selector:@selector(deviceOrientationDidChange:) 
-												 name:UIDeviceOrientationDidChangeNotification 
+												 name:UIDeviceOrientationDidChangeNotification
                                                object:nil];
 }
 
@@ -98,6 +96,8 @@ static int kSpinnerTag = 10;
     [self.layer setBorderWidth:0.25];
     [self setBackgroundColor:self.bgColor];
     [self setAlpha:0.0];
+    
+    // UGLY!
     [UIView animateWithDuration:0.5 
                           delay:0.0 
                         options:UIViewAnimationCurveEaseOut 
@@ -117,11 +117,8 @@ static int kSpinnerTag = 10;
                                               completion:nil];
                          }
                      }];    
-    NSLog(@"%f, %f", self.frame.origin.x, self.frame.origin.y);
+    DebugLog(@"%f, %f", self.frame.origin.x, self.frame.origin.y);
     UIView *spinnerView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, kSpinnerWidth, kSpinnerHeight)];
-#if !__has_feature(objc_arc)
-    [spinnerView autorelease];
-#endif
     [spinnerView setBackgroundColor:self.indicatorColor];
     [self setRoundedView:spinnerView toDiameter:kSpinnerHeight];
     [self addSubview:spinnerView];
